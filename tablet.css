@@ -1,0 +1,39 @@
+/*Tablet*/
+@media (min-width: 768px) {
+    /* Menú */
+    .menu {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    /* Título */
+    .title {
+        font-size: 18px;
+    }
+
+    /* Skills */
+    .skills__box ul {
+        max-width: 200px;
+    }
+
+    /* Hobbies */
+    .hobbies__box ul{
+        max-width: 200px;
+        display: flex;
+        display: block;
+    }
+
+    /* Formación Académica */
+    .academic__courses__box{
+       max-width: 250px;
+    }
+
+    /* Experiencia Profesional */
+    .experience__box ul {
+        max-width: 250px;
+    }
+    .experience__buttons{
+        display: flex;
+        flex-direction: auto;
+    }
+}
